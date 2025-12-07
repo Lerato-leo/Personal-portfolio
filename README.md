@@ -65,23 +65,46 @@ Core Technical Skills including:
 
 ### Projects
 **Bootcamp Projects:**
-1. Capstone Project - End-to-end cloud + AI + data engineering solution
-2. SQL & ETL Workflow - Data extraction, transformation, cleaning pipeline
-3. Cloud Deployment - Containerized app using cloud-native workflow
-4. Power Apps Application - Low-code business process automation
-5. AI/LLM Demo - Intelligent application using AI APIs
+1. **Capstone Project** - End-to-end cloud + AI + data engineering solution
+   - Tools: Python, SQL, cloud services, CI/CD, containers
+   - Features: GitHub link, View Demo option
+
+2. **SQL & ETL Workflow** - Multi-stage data pipeline
+   - Tools: SQL, Python, CSV datasets
+   - Features: GitHub link, View Demo option
+
+3. **Cloud Deployment** - Containerized application deployment
+   - Tools: Docker, cloud provider, CI/CD
+   - Features: GitHub link, View Demo option
+
+4. **Power Apps Application** - Low-code business automation
+   - Tools: Power Apps, Power Automate
+   - Features: GitHub link, View Demo option
+
+5. **LLM-Powered Demo** - Intelligent AI application
+   - Tools: Python, AI APIs
+   - Features: GitHub link, View Demo option
 
 **Personal Projects:**
-- Padovan Sequence Generator
-- Victoria Falls Website Layout
-- User Authentication System
-- Number Pattern Generator
-- Food Business Operations System
+- **Python Projects** - Collection including Padovan Sequence, Authentication System, Pattern Generators
+  - Tools: Python
+  - Features: GitHub link, View Demo option
 
 ### Education
 - **Richfield Institute of Technology** - BSc Information Technology (Data Science & ML) - Final Year
+
+### Certificates & Credentials
+Professional certifications showcasing continuous learning:
 - **Google Data Analytics Professional Certificate** - Completed December 2023
-- **Project Y Academy – Data Engineer Stream** - 2025-2026
+  - Skills: SQL, R programming, data visualization, spreadsheet analysis, analytical problem-solving
+  - View & Download available in portfolio
+
+- **Project Y Academy – Data Engineer Stream** - November 2025 - Ongoing
+  - Skills: SQL, Python automation, ETL pipelines, cloud fundamentals, database design, data modelling
+  - Industry-aligned training with mentorship and real-world projects
+
+- **Microsoft Excel & Access Foundations** - High School CAT
+  - Skills: Excel formulas, data organization, Access database fundamentals
 
 ### Contact
 - **Email:** lerato@example.com
