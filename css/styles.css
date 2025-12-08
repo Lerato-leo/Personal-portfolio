@@ -190,11 +190,11 @@
 :root {
 
     /* spacing
-     * base font size: 16px 
-     * vertical space unit : 24px
+     * base font size: 14px 
+     * vertical space unit : 20px
      */
     --base-size: 62.5%;
-    --multiplier: 0.85;
+    --multiplier: 0.7;
     --base-font-size: calc(1.9rem * var(--multiplier));
     --space: calc(3.2rem * var(--multiplier));
 
@@ -2732,7 +2732,7 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    --text-huge: 10.8rem;
+    --text-huge: 6.5rem;
     font-size: var(--text-huge);
     line-height: 1.0740;
     margin-top: 0;
@@ -3242,11 +3242,11 @@ img.u-pull-left {
 }
 
 .intro-content {
-    min-height: calc(18 * var(--space));
+    min-height: calc(14 * var(--space));
     justify-content: center;
     align-items: center;
-    padding-top: calc(12vh + var(--header-height));
-    padding-bottom: var(--vspace-2);
+    padding-top: calc(10vh + var(--header-height));
+    padding-bottom: var(--vspace-1_5);
 }
 
 .intro-content .text-huge-title {
@@ -3440,8 +3440,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: var(--vspace-4);
-    padding-bottom: var(--vspace-3);
+    padding-top: var(--vspace-3);
+    padding-bottom: var(--vspace-2_5);
 }
 
 /* --------------------------------------------------------------------
@@ -3477,8 +3477,9 @@ img.u-pull-left {
 }
 
 .about-info__text {
-    padding: var(--vspace-3_5) 10vw var(--vspace-2) 0;
-    margin-left: -4rem;
+    padding: var(--vspace-2) 7vw var(--vspace-1_5) 0;
+    margin-left: -2rem;
+    text-align: left;
 }
 
 .about-info__text .text-pretitle {
@@ -3648,8 +3649,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: var(--vspace-5);
-    padding-bottom: var(--vspace-3_5);
+    padding-top: var(--vspace-4);
+    padding-bottom: var(--vspace-3);
 }
 
 .s-works .h1 {
@@ -4170,6 +4171,45 @@ img.u-pull-left {
 
 .contact-social li:last-child::after {
     display: none;
+}
+
+/* ===================================================================
+ * ## contact form
+ * ================================================================ */
+.contact-form {
+    margin-top: var(--vspace-1);
+}
+
+.form-group {
+    margin-bottom: var(--vspace-1_5);
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.3rem;
+    color: var(--color-text-light);
+    font-family: var(--font-1);
+    font-size: var(--text-sm);
+    line-height: var(--vspace-1);
+    padding: 1.6rem;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--color-1);
+    box-shadow: 0 0 0 3px rgba(var(--color-1-rgb), 0.1);
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+textarea.form-control {
+    resize: vertical;
 }
 
 .contact-btn {
