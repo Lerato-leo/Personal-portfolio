@@ -2,7 +2,7 @@
 
 A clean, modern portfolio website showcasing my work as a **data engineer**, **AI developer**, and **low-code solutions architect** based in Johannesburg, South Africa.
 
-🌐 **Live Portfolio:** [https://lerato-portfolio.vercel.app](https://lerato-portfolio.vercel.app)
+🌐 **Live Portfolio:** [https://personal-portfolio-nine-iota-32.vercel.app/](https://personal-portfolio-nine-iota-32.vercel.app/)
 
 ## 📋 About
 
@@ -259,7 +259,7 @@ This portfolio is automatically deployed on **Vercel** for fast, reliable hostin
 - **Custom Domain:** (Optional) Can be configured
 
 #### **Live URL:** 
-🌐 [https://lerato-portfolio.vercel.app](https://lerato-portfolio.vercel.app)
+🌐 [https://personal-portfolio-nine-iota-32.vercel.app/](https://personal-portfolio-nine-iota-32.vercel.app/)
 
 #### **How It's Deployed:**
 
