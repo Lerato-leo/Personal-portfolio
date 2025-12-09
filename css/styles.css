@@ -1599,9 +1599,10 @@ hr.fancy::before {
 .attention-getter {
     font-family: var(--font-1);
     font-weight: 300;
-    font-size: var(--text-md);
-    line-height: var(--vspace-1_25);
+    font-size: calc(var(--text-md) * 1.15);
+    line-height: var(--vspace-1_5);
     color: var(--color-text-dark);
+    text-align: left;
 }
 
 .pull-quote {
