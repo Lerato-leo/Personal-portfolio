@@ -4174,6 +4174,65 @@ img.u-pull-left {
     display: none;
 }
 
+/* Enhanced Social Links Section */
+.contact-social--enhanced {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--vspace-0_75);
+    list-style: none;
+    margin-left: 0;
+    margin-top: var(--vspace-0_5);
+}
+
+.contact-social--enhanced li {
+    display: flex;
+    padding-left: 0;
+}
+
+.contact-social--enhanced li::after {
+    content: none;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text-light);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.social-link i {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link span {
+    letter-spacing: 0.05em;
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: var(--color-1);
+    background: rgba(221, 110, 74, 0.1);
+    border-color: var(--color-1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(221, 110, 74, 0.15);
+}
+
+.social-link:active {
+    transform: translateY(0);
+}
+
 /* ===================================================================
  * ## contact form
  * ================================================================ */
